@@ -1,0 +1,183 @@
+body {
+    font-family: 'Open Sans' sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: 'Monserrat', sans-serif;
+    font-weight: 900;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78, 189, 254, 1);
+    background: -moz-linear-gradient(left, rgba(78, 189, 254, 1) 0%, rgba(55, 143, 220, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78, 189, 254, 1)), color-stop(100%, rgba(55, 143, 220, 1)));
+    background: -webkit-linear-gradient(left, rgba(78, 189, 254, 1) 0%, rgba(55, 143, 220, 1) 100%);
+    background: -o-linear-gradient(left, rgba(78, 189, 254, 1) 0%, rgba(55, 143, 220, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(78, 189, 254, 1) 0%, rgba(55, 143, 220, 1) 100%);
+    background: linear-gradient(to right, rgba(78, 189, 254, 1) 0%, rgba(55, 143, 220, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#378fdc', GradientType=1);
+    padding-top: 65px;
+    padding-bottom: 145px;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 171px;
+    width: 575px;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.intro {
+    font-size: 17px;
+    margin-bottom: 48px;
+    width: 410px;
+}
+
+.btn {
+    font-famiy: 'Monserrat', sans-serif;
+    background: #e3b914;
+    color: #000;
+    border-radius: 5px;
+    display: block;
+    width: 221px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 214px;
+}
+
+.desktop {
+    margin-top: 55px;
+}
+
+.learn {
+    padding-top: 108px;
+    padding-bottom: 130px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.skill {
+    width: 300px;
+    background: url('../img/icon1.jpg') no-repeat top;
+    padding-top: 100px;
+}
+
+.skill-title {
+    font-size: 17px;
+}
+
+.skill-text {
+    padding-bottom: 130px;
+}
+
+.skill-trav {
+    width: 272px;
+    background: url('../img/icon2.jpg') no-repeat top;
+    padding-top: 100px;
+}
+
+.skill-value {
+    width: 305px;
+    background: url('../img/icon3.jpg') no-repeat top;
+    padding-top: 100px;
+}
+
+.mail {
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 99px;
+}
+
+.form {
+    margin-top: 60px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 500px;
+}
+
+.input {
+    font-size: 12px;
+    display: block;
+    border: 0;
+    margin-bottom: 25px;
+    padding: 15px 42px;
+    text-align: left;
+    width: 300px;
+}
+
+.btn-form {
+    font-size: 12px;
+    border: 0;
+    display: inline;
+    font-family: 'Monserrat', sans-serif;
+    background: #e3b914;
+    color: #000;
+    border-radius: 5px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 214px;
+    width: 300px;
+}
+
+.footer {
+    padding: 70px 0;
+    background: #164d7a;
+}
+
+.credits {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
